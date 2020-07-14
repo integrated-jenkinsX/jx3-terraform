@@ -1,1 +1,1 @@
-buildPack: terraform
+buildPack: hcl-buildpack
