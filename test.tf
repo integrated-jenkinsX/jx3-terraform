@@ -1,7 +1,7 @@
 resource "null_resource" "test" {
 
   triggers = {
-    key = "${uuid()}"
+    key = uuid()
   }
 
   provisioner "local-exec" {
